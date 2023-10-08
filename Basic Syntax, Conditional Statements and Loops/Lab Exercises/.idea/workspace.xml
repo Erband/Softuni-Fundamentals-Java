@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5361af-3357-411d-81da-d069c536d9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Passed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackIn30Minutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DivisibleBy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForeignLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MonthPrimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PassedOrFailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOfOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheatrePromotions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/evenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +59,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="StudentInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentInformation" />
+  <component name="RunManager" selected="Application.SumOddNumbers">
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiplicationTable" />
+      <module name="Lab Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationTable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiplicationTable2" />
+      <module name="Lab Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOddNumbers" />
+      <module name="Lab Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfOddNumbers" />
+      <module name="Lab Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheatrePromotions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheatrePromotions" />
       <module name="Lab Exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,7 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentInformation" />
+        <item itemvalue="Application.SumOddNumbers" />
+        <item itemvalue="Application.MultiplicationTable2" />
+        <item itemvalue="Application.MultiplicationTable" />
+        <item itemvalue="Application.SumOfOddNumbers" />
+        <item itemvalue="Application.TheatrePromotions" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696787565202</updated>
-      <workItem from="1696787566247" duration="947000" />
+      <workItem from="1696787566247" duration="4592000" />
     </task>
     <servers />
   </component>
@@ -81,5 +124,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SumOddNumbers.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
