@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed5361af-3357-411d-81da-d069c536d9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BackIn30Minutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivisibleBy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForeignLanguages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonthPrimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PassedOrFailed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfOddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheatrePromotions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed5361af-3357-411d-81da-d069c536d9b5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -113,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696787565202</updated>
-      <workItem from="1696787566247" duration="4592000" />
+      <workItem from="1696787566247" duration="5663000" />
     </task>
     <servers />
   </component>
@@ -124,16 +112,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SumOddNumbers.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
