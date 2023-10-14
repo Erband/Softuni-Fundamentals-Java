@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data Types and Variables/Data Types and Variables.iml" filepath="$PROJECT_DIR$/Data Types and Variables/Data Types and Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/Lab Exercises/Lab Exercises.iml" filepath="$PROJECT_DIR$/Basic Syntax, Conditional Statements and Loops/Lab Exercises/Lab Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SoftUni Fundamentals Java.iml" filepath="$PROJECT_DIR$/.idea/SoftUni Fundamentals Java.iml" />
+    </modules>
+  </component>
+</project>
