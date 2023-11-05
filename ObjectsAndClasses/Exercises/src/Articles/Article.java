@@ -5,26 +5,27 @@ public class Article {
     private String content;
     private String author;
 
-    Article article
-    public String getTitle() {
-        return title;
-    }
-    public void setTitle(String title) {
+    // constructor
+   public Article (String title, String content, String author){
         this.title = title;
-    }
-
-    public String getContent() {
-        return content;
-    }
-    public void setContent(String content) {
         this.content = content;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-    public void setAuthor(String author) {
         this.author = author;
-    }
+   }
+
+   public void Edit(String content) {
+       this.content = content;
+   }
+
+   public void ChangeAuthor(String author){
+       this.author = author;
+   }
+
+   public void Rename(String title){
+       this.title = title;
+   }
+
+   public  String toString(){
+       return (title + " - " + content + ": " + author );
+   }
 }
 
