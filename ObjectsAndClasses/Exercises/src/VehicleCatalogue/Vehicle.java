@@ -39,20 +39,31 @@ public class Vehicle {
         return total / vehicles.size();
     }
 
-    public static void closeCatalogue(List<Vehicle> cars, List<Vehicle> trucks){
-        System.out.printf("Cars have average horsepower of %.2f", averageHorsepower(cars) );
-        System.out.printf("Trucks have average horsepower of %.2f", averageHorsepower(trucks) );
+    public static void closeCatalogue(double carHorsepower, double totalCars, double truckHorsepower, double totalTrucks){
+        double averageCarHorsepower;
+        if (totalCars == 0){
+            averageCarHorsepower = carHorsepower;
+        }
+        else {
+            averageCarHorsepower = carHorsepower / totalCars;
+        }
+
+        double averageTruckHorsepower;
+        if (totalTrucks == 0){
+            averageTruckHorsepower = truckHorsepower;
+        }
+        else {
+            averageTruckHorsepower = truckHorsepower / totalTrucks;
+        }
+        System.out.printf("Cars have average horsepower of: %.2f.\n", averageCarHorsepower );
+        System.out.printf("Trucks have average horsepower of: %.2f.", averageTruckHorsepower );
     }
 
     public String toString(){
-        return ("Type: " + typeOfVehicle +
+        return ("Type: " + typeOfVehicle.substring(0, 1).toUpperCase() + typeOfVehicle.substring(1).toLowerCase() +
                 "\nModel: " + model +
                 "\nColor: " + color +
-                "Horsepower: " + String.format("%.2f", horsepower));
+                "\nHorsepower: " + String.format("%.0f", horsepower));
     }
-    public static void printVehicles(List<Vehicle> vehicles){
-        for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle);
-        }
-    }
+
 }

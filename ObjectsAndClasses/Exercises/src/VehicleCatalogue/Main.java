@@ -1,5 +1,6 @@
 package VehicleCatalogue;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,36 +10,42 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         List<Vehicle> vehicles = new ArrayList<>();
-        List<Vehicle> cars = new ArrayList<>();
-        List<Vehicle> trucks = new ArrayList<>();
 
-        String input = " ";
-        while (!input.contains("End") || !input.contains("Close the Catalogue")){
-            input = scanner.nextLine();
 
-            if (input.contains("End")){
-                Vehicle.printVehicles(vehicles);
-            } else if (input.contains("Close the Catalogue")) {
-                Vehicle.closeCatalogue(cars, trucks);
+        String[] input = new String[]{" "};
 
+        while (!input[0].contains("End")){
+            input = scanner.nextLine().split(" ");
+            if (input[0].contains("End")){
+                break;
             }
-            String[] vehicleInput = input.split(" ");
-
-
-            Vehicle vehicle = new Vehicle(vehicleInput[0],
-                                     vehicleInput[1],
-                                    vehicleInput[2],
-                             Double.parseDouble(vehicleInput[3]) );
-
-            if (vehicle.getTypeOfVehicle().equals("car")) {
-                cars.add(vehicle);
-                vehicles.add(vehicle);
-            }
-            else {
-                trucks.add(vehicle);
-                vehicles.add(vehicle);
-            }
-
+            Vehicle vehicle = new Vehicle(input[0], input[1], input[2], Double.parseDouble(input[3]) );
+            vehicles.add(vehicle);
         }
+
+        double totalCarHorsepower = 0;
+        double totalCars = 0;
+        double totalTruckHorsepower = 0;
+        double totalTrucks = 0;
+        String anotherInput = " ";
+        while (!anotherInput.equals("Close the Catalogue")){
+            anotherInput = scanner.nextLine();
+            for (Vehicle vehicle : vehicles) {
+                if (vehicle.getTypeOfVehicle().equals("car")) {
+                    totalCarHorsepower += vehicle.getHorsepower();
+                    totalCars++;
+                }
+                else if (vehicle.getTypeOfVehicle().equals("truck")) {
+                    totalTruckHorsepower += vehicle.getHorsepower();
+                    totalTrucks++;
+                }
+                if (anotherInput.equals(vehicle.getModel())) {
+                    System.out.println(vehicle);
+                }
+            }
+        }
+
+        Vehicle.closeCatalogue(totalCarHorsepower, totalCars, totalTruckHorsepower, totalTrucks);
+
     }
 }
